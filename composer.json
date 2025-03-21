@@ -1,0 +1,19 @@
+{
+    "name": "sajid/siyom_tvasta",
+    "description": "PHP Project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sajid\\SiyomTvasta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sajid ali"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

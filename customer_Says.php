@@ -3,7 +3,7 @@
         <div class="row mb-5 align-items-center">
           <div class="col-md-6">
             <h2 class="font-weight-bold heading text-primary mb-4 mb-md-0">
-              Customer Says
+            Happy Customers
             </h2>
           </div>
           <div class="col-md-6 text-md-end">
@@ -352,7 +352,7 @@ Thanks Signature Global.&rdquo;
               <span class="number"
                 ><span class="countup text-primary">3298</span></span
               >
-              <span class="caption text-black-50"># of Buy Properties</span>
+              
             </div>
           </div>
           <div
@@ -364,7 +364,7 @@ Thanks Signature Global.&rdquo;
               <span class="number"
                 ><span class="countup text-primary">2181</span></span
               >
-              <span class="caption text-black-50"># of Sell Properties</span>
+             
             </div>
           </div>
           <div
@@ -376,7 +376,7 @@ Thanks Signature Global.&rdquo;
               <span class="number"
                 ><span class="countup text-primary">9316</span></span
               >
-              <span class="caption text-black-50"># of All Properties</span>
+              
             </div>
           </div>
           <div
@@ -388,7 +388,7 @@ Thanks Signature Global.&rdquo;
               <span class="number"
                 ><span class="countup text-primary">7191</span></span
               >
-              <span class="caption text-black-50"># of Agents</span>
+             
             </div>
           </div>
         </div>

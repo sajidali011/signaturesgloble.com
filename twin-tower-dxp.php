@@ -85,7 +85,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#home">Siyom Tvasta</a>
+            <a class="navbar-brand" href="#home">Signatures Globle</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -174,8 +174,8 @@
     <!-- GALLERY SECTION -->
     <section id="gallery" class="bg-light py-5">
         <div class="container text-center">
-            <h2>GALLERY</h2>
-            <p>Experience architectural brilliance and opulent spaces designed to redefine luxury living.</p>
+            <h2 style="color: #d4af37;">GALLERY</h2>
+            <p style="color: #d4af37;">Experience architectural brilliance and opulent spaces designed to redefine luxury living.</p>
         </div>
         <div class="container-fluid p-0">
             <img src="images/on_going_project/gallery4.webp" class="img-fluid w-100" alt="Gallery Image">
@@ -184,7 +184,7 @@
 
     <section id="amenities" class="bg-light py-5">
     <div class="container text-center">
-        <h2>AMENITIES</h2>
+        <h2 style="color: #d4af37;">AMENITIES</h2>
         <div id="amenitiesCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -245,7 +245,8 @@
 
     <div class="container mt-4">
     <!-- Heading -->
-    <div class="text-center fw-bold fs-4 border-bottom pb-2">PROJECT WALKTHROUGH</div>
+    <div class="text-center fw-bold fs-4 border-bottom pb-2 text-warning">PROJECT WALKTHROUGH</div>
+
     
     <!-- Video Section -->
     <div class="border p-3 bg-white mt-3">

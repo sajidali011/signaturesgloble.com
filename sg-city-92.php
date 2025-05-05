@@ -3,7 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Flats in Gurugram | Buy Apartment in Gurugram | Gurugram Apartments for Sale</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signature Global City 92 | 2/3 BHK Flats in Sector 92 Gurugram</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Book 2 & 3 BHK independent luxury floors at Signature Global City 92, Sector 92 Gurugram. Approved by RERA, this project offers premium amenities, green living, and great connectivity to NH-8, Dwarka Expressway.">
+    <meta name="keywords" content="Signature Global City 92, Signature Global 92, Signature Global City Gurugram, Flats in Sector 92, 2 BHK in Gurugram, 3 BHK in Sector 92, Signature Global Project, Buy Property Gurgaon, Signature Global Floors, Luxury Apartments Gurugram, Affordable Housing Gurugram, Signature Global Independent Floors">
+    <meta name="author" content="Signature Global India Ltd">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +23,26 @@
     <!-- Bootstrap JS (optional) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.signatureglobal.in/signature-global-city-92">
+
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Signature Global City 92 - Luxury Floors in Sector 92, Gurgaon">
+    <meta property="og:description" content="Premium 2 & 3 BHK Independent Floors at Signature Global City 92, Sector 92 Gurugram. Now launching with world-class amenities, location advantages & seamless connectivity!">
+    <meta property="og:image" content="https://www.signatureglobal.in/images/projects/signature-global-city-92-og.jpg">
+    <meta property="og:url" content="https://www.signatureglobal.in/signature-global-city-92">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Signature Global City 92 - 2 & 3 BHK Premium Floors">
+    <meta name="twitter:description" content="Explore Signature Global City 92, a luxury residential community in Sector 92, Gurgaon. Featuring independent floors, amenities, and excellent connectivity.">
+    <meta name="twitter:image" content="https://www.signatureglobal.in/images/projects/signature-global-city-92-og.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body class="m-0 p-0">
 
 <div class="position-relative">
@@ -108,10 +133,10 @@
     <li>Kadipur industrial area is in close vicinity.</li>
     <li>Moreover, there is easy connectivity to the city’s employment hubs through Pataudi Road, NH-8, Dwarka Expressway, Western Peripheral Expressway, and Southern Peripheral Road.</li>
     <li>The sector has witnessed the development of several residential projects in the vicinity.</li>
-    <li>Residential projects in these places are ideal for those who choose to surround themselves with abundant greenery and the soothing sound of nature.</li>
+    <li>Residential projects in these places are ideal for those who choose to surround themselves with abundant greenery and the soothing sound of nature. <a href="https://maps.app.goo.gl/aaGLqYn94nUF9SRn9" style="color:white;">Signature Global City 92 location map</a></a></li>
     <li>Well-established network of schools, hospitals, shopping malls, and retail opportunities.</li>
     <li>The sector has witnessed good returns in terms of rent because it is an ideal location for people who work in private and retail sectors.</li>
-    <li>Easy access to International airport via NH-8 and Dwarka Expressway.</li>
+    <li>Signature Global City 92 Sector 92, Easy access to International airport via NH-8 and Dwarka Expressway. </li>
 </ul>
 
             </div>
@@ -319,7 +344,7 @@
 
     <strong>Disclaimer</strong>
     <p>
-    Promoter urges every applicant to inspect the project site and shall not merely rely upon any architectural impression, plan or sales brochure and, therefore, requests to make personal judgment prior to submitting an application for allotment. The Project is being developed in phases, hence, certain facilities/amenities etc, may be used by allottee of other phases. Unless otherwise stated, all the images, visuals, materials and information contained herein are purely creative/artistic and may not be actual representations of the product and/or any amenities. Further, the actual design may vary in the fit and finished form, from the one displayed above . Journey time shown, if any, is based upon Google Maps which may vary as per the traffic at a relevant point of time. *Rate mentioned above does not include GST and other statutory charges, if applicable. T & C Apply. 1 sq. mt. = 10.7639 sq. ft.
+    Promoter urges every applicant to inspect the project site and shall not merely rely upon any architectural impression, plan or sales brochure and, therefore, requests to make personal judgment prior to submitting an application for allotment. The Project is being developed in phases, Signature Global City 92 RERA number hence, certain facilities/amenities etc, may be used by allottee of other phases. Unless otherwise stated, Signature Global City 92 brochure all the images, visuals, materials and information contained herein are purely creative/artistic and may not be actual representations of the product and/or any amenities. Further, the actual design may vary in the fit and finished form, from the one displayed above . Journey time shown, if any, is based upon Google Maps which may vary as per the traffic at a relevant point of time. *Rate mentioned above does not include GST and Signature Global City 92 price list Signature Global City 92 floor plans  other statutory charges, if applicable. T & C Apply. 1 sq. mt. = 10.7639 sq. ft.
     </p>
 </div>
 

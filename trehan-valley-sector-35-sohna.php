@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lion Infra Green Valley
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .text-orange {
+            color: #ff8c00; /* Example orange color */
+        }
+        .bg-light-gray {
+            background-color: #f8f9fa; /* Very light gray */
+        }
+    </style>
+</head>
+<body>
+<?php include "navbar.php" ?>
+<div style="margin-top: 140px;">
+  
+    <header class="bg-light py-3">
+        <div class="container text-center">
+            <h1>Trehan Valley
+
+            </h1>
+            <p class="lead">Sector 35, Sohna, Gurgaon, Haryana</p>
+        </div>
+    </header>
+
+    <div class="container py-4">
+        <div id="simpleCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active">
+                    <img src="images/on_going_project/BLF-Nature-Valley.webp" class="d-block w-100" alt="Wal Verde 92 - Image 1">
+                </div>
+                
+                </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#simpleCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-secondary rounded-circle p-2" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#simpleCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-secondary rounded-circle p-2" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 text-center">
+
+      <h2 class="text-orange fw-bold mb-3">Trehan Valley</h2>
+      <hr class="mb-4">
+
+      <p><strong>Trehan Valley Sector 35, Sohna</strong> is an upcoming premium residential project by the renowned <strong>Trehan Developers</strong>, strategically located in Sector 35, Sohna, Gurgaon. This low-rise gated community offers spacious <strong>3 BHK luxury floors</strong> that promise a modern lifestyle with a perfect blend of comfort, elegance, and connectivity.</p>
+<p>Thoughtfully designed with contemporary architecture, <strong>Trehan 35 Sohna</strong> offers well-planned layouts, premium finishes, and excellent ventilation, enhancing both the aesthetic appeal and functionality of each home. The project features lush landscaped gardens, dedicated parking, and <strong>CCTV surveillance</strong> for a secure and serene living experience.</p>
+<p>Located on the <strong>Badshahpur–Sohna Road Highway</strong>, the project enjoys seamless connectivity to major landmarks such as <span class="text-muted">Vardaan Hospital and Trauma Center</span>, shopping complexes, educational institutions, and corporate hubs. Its prime location ensures quick access to key parts of Gurgaon and Delhi-NCR.</p>
+<p>Residents can enjoy a wide array of modern amenities including <strong>a state-of-the-art gym, landscaped greens, kids’ play zones, and more</strong>. Whether you're looking for a luxurious home for your family or a future-ready investment, <strong>Trehan Valley Sector 35</strong> presents an ideal opportunity in the heart of Sohna.</p>
+
+
+    </div>
+  </div>
+</div>
+
+
+    </div>
+
+   
+    <div class="container py-5 bg-light-gray">
+  <h2 class="text-warning fw-bold mb-4 text-center"> Highlights</h2>
+  <hr class="border-2 border-warning opacity-100 mb-4">
+  <ul class="list-unstyled row">
+  <li class="mb-2 col-12 col-md-6">• Premium Low-Rise Floors</li>
+  <li class="mb-2 col-12 col-md-6">• Landscaped Gardens, Parking Spaces, and Lawns</li>
+  <li class="mb-2 col-12 col-md-6">• Central Air Conditioning for Enhanced Comfort</li>
+  <li class="mb-2 col-12 col-md-6">• Lounge, Park, Lift, and CCTV Surveillance</li>
+  <li class="mb-2 col-12 col-md-6">• Attractive Interiors with Modern Design</li>
+  <li class="mb-2 col-12 col-md-6">• Well-Planned and Spacious Layouts</li>
+  <li class="mb-2 col-12 col-md-6">• Spacious Bedrooms, Stylish Living Areas, and Modern Kitchens</li>
+  <li class="mb-2 col-12 col-md-6"><strong>• HRERA No:</strong> 104 of 2022</li>
+</ul>
+
+
+</div>
+
+
+<div class="container py-5 bg-light-gray">
+<h2 class="text-warning fw-bold mb-4 text-center">Amenities</h2>
+<hr class="border-2 border-warning opacity-100 mb-4">
+<ul class="list-unstyled row row-cols-2 row-cols-md-2">
+  <li class="mb-2 col">• Outdoor Swimming Pool</li>
+  <li class="mb-2 col">• Cafe</li>
+  <li class="mb-2 col">• Experience Center</li>
+  <li class="mb-2 col">• Meeting Rooms</li>
+  <li class="mb-2 col">• Kids Play Area</li>
+  <li class="mb-2 col">• Multipurpose Hall</li>
+  <li class="mb-2 col">• Music Room</li>
+  <li class="mb-2 col">• Indoor Games Zone</li>
+  <li class="mb-2 col">• Kids Plunge Pool</li>
+  <li class="mb-2 col">• Outdoor Pool Deck</li>
+  <li class="mb-2 col">• Squash Court</li>
+  <li class="mb-2 col">• Lounge</li>
+</ul>
+
+</div>
+
+
+
+<div class="container py-5">
+  <h2 class="text-warning fw-bold mb-4 text-center">Location Advantages</h2>
+  <hr class="border-2 border-warning opacity-100 mb-4">
+  <ul class="list-unstyled row row-cols-1 row-cols-md-2">
+  <li class="mb-2 col">• Shiksha Bharti Public School – 6 km (Approx. 8 mins drive)</li>
+  <li class="mb-2 col">• MKD Hospitals – 1.7 km (Approx. 5 mins drive)</li>
+  <li class="mb-2 col">• Hospital Moksh – 2.3 km (Approx. 6 mins drive)</li>
+  <li class="mb-2 col">• Hospital in Gurugram – 2.5 km (Approx. 8 mins drive)</li>
+  <li class="mb-2 col">• Rapid Metro Station – 8.5 km (Approx. 20 mins drive)</li>
+  <li class="mb-2 col">• HUDA City Centre – 12 km (Approx. 20 mins drive)</li>
+</ul>
+
+
+</div>
+
+
+
+<div class="mb-4">
+  <h5 class="fw-bold text-warning border-bottom pb-2" style="border-color: #e0a800 !important;">
+    Price List:
+  </h5>
+  <div class="table-responsive">
+    <table class="table table-bordered text-center align-middle">
+      <thead class="table-light">
+        <tr>
+          <th class="fw-bold">UNIT SIZE</th>
+          <th class="fw-bold">TYPE</th>
+          <th class="fw-bold">PRICE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2148 to 2670 sq. ft.</td>
+          <td>3BHK + Basement + Terrace</td>
+          <td>1.70 Cr Onwards*</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+    </div>
+
+
+    <div class="container py-5">
+  <h2 class="text-warning fw-bold mb-4 text-center">Floor Plan</h2>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <img src="images/on_going_project/trehan-luxury-floors-sector.webp" alt="Image 1" class="img-fluid rounded shadow" style="height: 400px; width: 100%; object-fit: cover;">
+    </div>
+    <div class="col-md-6 mb-3">
+      <img src="images/on_going_project/trehan-luxury-floors-secto.webp" alt="Image 2" class="img-fluid rounded shadow" style="height: 400px; width: 100%; object-fit: cover;">
+    </div>
+  </div>
+</div>
+
+
+
+
+    <section class="container my-5">
+  <h4 class="text-warning border-bottom pb-2">Location Map:</h4>
+  <div class="text-center">
+    <img src="images/on_going_project/trehan-luxury-floors-sector-35-sohna-location-map.webp" 
+         alt="True Habitat Luxe Residency 112 Location Map" 
+         class="rounded shadow"
+         style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  </div>
+</section>
+
+
+<section class="container my-5">
+  <h4 class="text-warning border-bottom pb-2">  Site Plan :</h4>
+  <div class="text-center">
+    <img src="images/on_going_project/trehan-luxury-floors-sector-35-sohna-site-map.webp" alt="True Habitat Luxe Residency 112 Location Map" class="img-fluid rounded shadow">
+  </div>
+</section>
+
+<section class=" py-4">
+  <div class="container bg-white"><br>
+    <div class="row text-center text-md-start ">
+      <div class="col-md-4 mb-2">
+        <strong>Address:</strong> Sector 77, Gurugram, Haryana
+      </div>
+      <div class="col-md-4 mb-2">
+        <strong>Location:</strong> Southern Peripheral Road Projects
+      </div>
+      <!-- <div class="col-md-4 mb-2">
+        <strong>Zip/Postal Code:</strong> 122001
+      </div> -->
+    </div>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+    <div class="border p-3 bg-white bg-opacity-10">
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <strong>Price:</strong>  Rs.1.70 Cr Onwards*
+        </div>
+        <div class="col-md-6 mb-2">
+          <strong>Property Type:</strong>   Residential, Residential Ongoing Projects
+        </div>
+        <div class="col-md-6 mb-2">
+          <strong>Property Size:</strong>  2148 sqft
+        </div>
+        <div class="col-md-6 mb-2">
+          <strong>Property Status:</strong> Under Construction
+        </div>
+        <div class="col-md-6 mb-2">
+          <strong>Bathrooms:</strong>3
+        </div>
+        <div class="col-md-6 mb-2">
+          <strong>Bedrooms:</strong>3
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+    
+
+   <?php include "footer.php" ?>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

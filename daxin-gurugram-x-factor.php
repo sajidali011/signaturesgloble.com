@@ -122,7 +122,7 @@ section {
     <!-- Navigation Bar -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#home">Siyom tvasta</a>
+            <a class="navbar-brand" href="#home">Signatures Globle</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -185,7 +185,7 @@ section {
 
                 <!-- Static Image -->
                 <div class="col-lg-6 text-center">
-                    <img src="multiple-min.webp" class="img-fluid rounded" alt="Static Image">
+                    <img src="images/on_going_project/gallery3-min.webp" class="img-fluid rounded" alt="Static Image">
                 </div>
             </div>
         </div>

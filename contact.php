@@ -1,3 +1,54 @@
+<?php
+require 'vendor/autoload.php'; // Ensure PHPMailer is installed
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $subject = htmlspecialchars($_POST['subject']);
+    $message = htmlspecialchars($_POST['message']);
+
+    $mail = new PHPMailer(true);
+
+    try {
+        // SMTP Configuration (Gmail settings)
+        $mail->isSMTP();
+        $mail->Host = 'smtp.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'skriassociate57@gmail.com'; // Apna Gmail ID
+        $mail->Password = 'paya fqew fkaq cyrw';       // Gmail App Password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = 587;
+
+        // Sender & Recipient
+        $mail->setFrom('skriassociate57@gmail.com', 'Siyom Tvasta'); // Sender
+        $mail->addAddress('skriassociate57@gmail.com');              // Recipient
+        $mail->addReplyTo($email, $name);                            // Reply Option
+
+        // Email Content
+        $mail->isHTML(true);
+        $mail->Subject = "New Enquiry: $subject";
+        $mail->Body = "
+            <h2>New Enquiry Received</h2>
+            <p><strong>Name:</strong> $name</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Subject:</strong> $subject</p>
+            <p><strong>Message:</strong> $message</p>
+        ";
+
+        $mail->send();
+
+        // AJAX Response
+        echo json_encode(["status" => "success", "message" => "✅ Enquiry sent successfully!"]);
+    } catch (Exception $e) {
+        echo json_encode(["status" => "error", "message" => "❌ Email sending failed! Error: " . $mail->ErrorInfo]);
+    }
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,11 +59,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
 <body>
     <!-- Navbar Include -->
     <?php include 'navbar.php'; ?>
-
     <!-- Hero Section -->
     <div class="hero page-inner overlay" style="background-image: url('images/hero_bg_1.jpg')">
         <div class="container">
@@ -41,16 +90,14 @@
                             <i class="fa-solid fa-location-dot"></i>
                             <h4 class="mb-2">Location:</h4>
                             <p>
-                                Add. Signatures Globals.<br>
-                                Office no. 545, Satya The Hive,<br>
-                                Sector 102, Dwarka Expressway, Gurugram
+                               Add.Signatures Globals office no. Satya The Hive sec. 102
                             </p>
                         </div>
 
                         <div class="open-hours mt-4">
                             <i class="fa-solid fa-clock"></i>
                             <h4 class="mb-2">Open Hours:</h4>
-                            <p>Sunday-Friday:<br>10:00 AM - 7:00 PM</p>
+                            <p>Monday-Sunday:<br>10:00 AM - 7:00 PM</p>
                         </div>
 
                         <div class="email mt-4">
@@ -62,36 +109,88 @@
                         <div class="phone mt-4">
                             <i class="fa-solid fa-phone"></i>
                             <h4 class="mb-2">Call:</h4>
-                            <p><a href="tel:+919717941119">+91 9717941119</a></p>
+                            <p><a href="tel:+919717941119">+91 9355713111</a></p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Contact Form -->
-                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-                    <form action="submit_form.php" method="POST">
-                        <div class="row">
-                            <div class="col-6 mb-3">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                            </div>
-                            <div class="col-6 mb-3">
-                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+   <!-- Contact Form -->
+<div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+    <form id="contactForm">
+        <div class="row">
+            <div class="col-6 mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="col-6 mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="col-12 mb-3">
+                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+            </div>
+            <div class="col-12 mb-3">
+                <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Send Message</button>
             </div>
         </div>
-    </div>
+    </form>
+</div>
+
+<!-- SweetAlert and AJAX Script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#contactForm').submit(function(e) {
+            e.preventDefault(); // Page reload rokta hai
+
+            // Form Data Collect
+            let formData = $(this).serialize();
+
+            // AJAX Call for Form Submission
+            $.ajax({
+                url: '',
+                type: 'POST',
+                data: formData,
+                dataType: 'json',
+                beforeSend: function() {
+                    Swal.fire({
+                        title: 'Processing...',
+                        text: 'Please wait while we send your enquiry.',
+                        allowOutsideClick: false,
+                        didOpen: () => {
+                            Swal.showLoading();
+                        }
+                    });
+                },
+                success: function(response) {
+                    Swal.fire({
+                        icon: response.status === 'success' ? 'success' : 'error',
+                        title: response.message,
+                        confirmButtonText: 'OK'
+                    });
+
+                    // Form Reset if Successful
+                    if (response.status === 'success') {
+                        $('#contactForm')[0].reset();
+                    }
+                },
+                error: function() {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Something went wrong. Please try again later.',
+                        confirmButtonText: 'OK'
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+
 
     <!-- Google Map -->
     <div class="col-12 mt-4">
@@ -121,11 +220,11 @@
             </p>
 
             <p style="font-size: 1.1rem;">
-                <strong>Missed call no.:</strong> <a href="tel:+918527120120" style="color: #1a73e8; text-decoration: none;">+91 9717941119</a>
+                <strong>Missed call no.:</strong> <a href="tel:+91 9355713111" style="color: #1a73e8; text-decoration: none;">+91 9355713111</a>
             </p>
 
             <p style="font-size: 1.1rem;">
-                <strong>Customer Care no.:</strong> <a href="tel:+919311144624" style="color: #1a73e8; text-decoration: none;">+91 9540515454</a>
+                <strong>Customer Care no.:</strong> <a href="tel:+919540515454" style="color: #1a73e8; text-decoration: none;">+919540515454</a>
             </p>
         </div>
     </div>

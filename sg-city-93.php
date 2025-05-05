@@ -1,25 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Flats in Gurugram | Buy Apartment in Gurugram | Gurugram Apartments for Sale</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Luxury Flats in Gurugram: Signature Global City 93 Apartments</title>
+  <meta name="keywords" content="Luxury Apartments Gurugram, Flats for Sale Sector 93, Signature Global City 93, Premium Apartments Gurgaon, Independent Floors Sector 93, Real Estate Investment Gurugram">
+  <meta name="description" content="Explore luxury flats and independent floors for sale in Signature Global City 93, Sector 93, Gurugram. Discover premium living with modern amenities and excellent connectivity. Download the brochure for best offers!">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="canonical" href="https://www.example.com/signature-global-city-93" /> <link rel="icon" href="/favicon.ico" type="image/x-icon"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script> <style>
+    .custom-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: linear-gradient(135deg, #4CAF50, #2E8B57);
+      border-radius: 30px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    .custom-btn:hover {
+      background: linear-gradient(135deg, #45a049, #276a47);
+    }
+  </style>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap JS (optional) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-   
-</head>
-
+  <script>
+    function toggleContent() {
+      const content = document.getElementById('moreContent');
+      const button = document.getElementById('toggleBtn');
+      if (content.classList.contains('d-none')) {
+        content.classList.remove('d-none');
+        button.textContent = 'Show Less';
+      } else {
+        content.classList.add('d-none');
+        button.textContent = 'Show More';
+      }
+    }
+  </script>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.example.com/signature-global-city-93"> <meta property="og:title" content="Buy Luxury Flats in Gurugram: Signature Global City 93 Apartments">
+  <meta property="og:description" content="Explore luxury flats and independent floors for sale in Signature Global City 93, Sector 93, Gurugram. Discover premium living with modern amenities and excellent connectivity. Download the brochure for best offers!">
+  <meta property="og:image" content="https://www.example.com/images/signature-global-city-93-preview.jpg"> <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.example.com/signature-global-city-93"> <meta property="twitter:title" content="Buy Luxury Flats in Gurugram: Signature Global City 93 Apartments">
+  <meta property="twitter:description" content="Explore luxury flats and independent floors for sale in Signature Global City 93, Sector 93, Gurugram. Discover premium living with modern amenities and excellent connectivity. Download the brochure for best offers!">
+  <meta property="twitter:image" content="https://www.example.com/images/signature-global-city-93-preview.jpg"> </head>
 <body>
 
     <!-- Home Section -->
@@ -27,7 +56,6 @@
         <!-- Video Background -->
         <video autoplay muted loop playsinline class="w-100 video-bg">
             <source src="images/on_going_project/sg93banner.m4v" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
 
         <div class="afterimg">
@@ -69,31 +97,36 @@
             <div class="col-md-4 col-6">
                 <div class="project-main-detail project-main-detail-line text-center">
                     <i class="fas fa-parking fa-4x text-success mb-3"></i>
-                    <p class="box-modern-title">11.5 FEET HIGH STILT PARKING</p>
+                    <p class="box-modern-title">Signature Global City 93: 11.5 Feet High Stilt Parking</p>
+                    <p class="text-muted small">Enjoy ample parking space at Signature Global City 93.</p>
                 </div>
             </div>
             <div class="col-md-4 col-6">
                 <div class="project-main-detail project-main-detail-line rightline text-center">
                     <i class="fas fa-running fa-4x text-success mb-3"></i>
-                    <p class="box-modern-title">2 KM LONG JOGGING TRACK</p>
+                    <p class="box-modern-title">Signature Global City 93: 2 KM Long Jogging Track</p>
+                    <p class="text-muted small">Stay fit with the dedicated jogging track at Signature Global City 93.</p>
                 </div>
             </div>
             <div class="col-md-4 col-6">
                 <div class="project-main-detail rightlinetwo text-center">
                     <i class="fas fa-road fa-4x text-success mb-3"></i>
-                    <p class="box-modern-title">BANG ON 84 METER WIDE ROAD</p>
+                    <p class="box-modern-title">Signature Global City 93: Located on 84 Meter Wide Road</p>
+                    <p class="text-muted small">Excellent connectivity from Signature Global City 93.</p>
                 </div>
             </div>
             <div class="col-6">
                 <div class="project-main-detail project-main-detail-line linebtm mt-0 text-center">
                     <i class="fas fa-seedling fa-4x text-success mb-3"></i>
-                    <p class="box-modern-title">TERRACE GARDEN WITH ROOF RIGHTS</p>
+                    <p class="box-modern-title">Signature Global City 93: Terrace Garden with Roof Rights</p>
+                    <p class="text-muted small">Exclusive terrace gardens at your Signature Global City 93 home.</p>
                 </div>
             </div>
             <div class="col-6">
                 <div class="project-main-detail rightlinetwo mt-0 text-center">
                     <i class="fas fa-laptop-house fa-4x text-success mb-3"></i>
-                    <p class="box-modern-title">EXTRA SPACE FOR WORK FROM HOME</p>
+                    <p class="box-modern-title">Signature Global City 93: Extra Space for Work From Home</p>
+                    <p class="text-muted small">Dedicated work spaces in Signature Global City 93 apartments.</p>
                 </div>
             </div>
         </div>
@@ -104,98 +137,95 @@
  
     <!--3D WALKTHROUGH-->
     <div class="walkthroughwrap padd100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <span class="captext fcolorlgt wow animate__ animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">3D WALKTHROUGH</span>
-                    <h2 class="headingtag fcolordrk mb-4 wow animate__ animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Step Into The World Of Luxury</h2>
-                </div>
-                <div class="col-lg-12">
-                    <div class="walkvideoiframe wow animate__ animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                      <iframe width="100%" height="500" src="https://www.youtube.com/embed/mVvf2v-jG1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <span class="captext fcolorlgt wow animate__ animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">3D WALKTHROUGH</span>
+                <h2 class="headingtag fcolordrk mb-4 wow animate__ animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Step Into The World Of Luxury at Signature Global City 93</h2>
+                <p class="text-muted mb-3">Experience Signature Global City 93 with our immersive 3D Walkthrough.</p>
+            </div>
+            <div class="col-lg-12">
+                <div class="walkvideoiframe wow animate__ animate__fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/mVvf2v-jG1I" title="YouTube video player - Signature Global City 93" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <!--3D WALKTHROUGH-->
-    
-  <!-- Location -->
+</div>
 <div class="locationwrap bg-success text-white py-5">
     <div class="container">
         <div class="row">
-            <!-- Left Side: Location Advantages -->
             <div class="col-lg-6 location-bg sg93location">
                 <div class="locationadvantage">
-                    <h2 class="headingtag clrwh mb-4 wow animate__animate__fadeInUp">Location<br/> Advantages</h2>
+                    <h2 class="headingtag clrwh mb-4 wow animate__animate__fadeInUp">Location<br/> Advantages of Signature Global City 93</h2>
 
                     <div class="location-content">
                         <div class="ullist wow animate__animate__fadeInUp">
-                            <p class="h4">Connectivity to Major Highways</p>
+                            <p class="h4">Connectivity to Major Highways near Signature Global City 93</p>
                             <ul>
-                                <li>Well Connected to NH-48.</li>
-                                <li>Dwarka Expressway.</li>
-                                <li>CPR</li>
-                                <li>SPR (Southern Peripheral Road Gurgaon Manesar)</li>
-                                <li>Kundli-Manesar-Palwal Expressway (KMP)</li>
+                                <li>Well Connected to NH-48 from Signature Global City 93.</li>
+                                <li>Dwarka Expressway access from Signature Global City 93.</li>
+                                <li>CPR connectivity near Signature Global City 93.</li>
+                                <li>SPR (Southern Peripheral Road Gurgaon Manesar) access from Signature Global City 93.</li>
+                                <li>Kundli-Manesar-Palwal Expressway (KMP) access from Signature Global City 93.</li>
                             </ul>
                         </div>
 
                         <div class="ullist wow animate__animate__fadeInUp mt-3 d-none" id="moreContent">
-                            <p class="h4">Recreational / Hotels in 7Km Radius</p>
+                            <p class="h4">Recreational / Hotels in 7Km Radius of Signature Global City 93</p>
                             <ul>
-                                <li>Holiday Inn</li>
-                                <li>ITC Grand Bharat</li>
-                                <li>Radisson Hotel</li>
-                                <li>Hyatt Regency</li>
+                                <li>Holiday Inn near Signature Global City 93</li>
+                                <li>ITC Grand Bharat near Signature Global City 93</li>
+                                <li>Radisson Hotel near Signature Global City 93</li>
+                                <li>Hyatt Regency near Signature Global City 93</li>
                             </ul>
 
-                            <p class="h4 mt-4">Multi-Specialty Hospital in 6Km Radius</p>
+                            <p class="h4 mt-4">Multi-Specialty Hospital in 6Km Radius of Signature Global City 93</p>
                             <ul>
-                                <li>Medanta Medicity</li>
-                                <li>Aarvy Healthcare</li>
-                                <li>Miracles Apollo Cradle/Spectra Hospital</li>
-                                <li>Genesis Hospital</li>
-                                <li>Arc Multi Specialty Hospital</li>
-                                <li>Rockland Hospital</li>
-                                <li>Greenway Hospital</li>
-                                <li>ESIC Hospital, Manesar</li>
-                                <li>Silver Streak Hospital</li>
-                                <li>Medeor Hospital, Manesar</li>
+                                <li>Medanta Medicity near Signature Global City 93</li>
+                                <li>Aarvy Healthcare near Signature Global City 93</li>
+                                <li>Miracles Apollo Cradle/Spectra Hospital near Signature Global City 93</li>
+                                <li>Genesis Hospital near Signature Global City 93</li>
+                                <li>Arc Multi Specialty Hospital near Signature Global City 93</li>
+                                <li>Rockland Hospital near Signature Global City 93</li>
+                                <li>Greenway Hospital near Signature Global City 93</li>
+                                <li>ESIC Hospital, Manesar near Signature Global City 93</li>
+                                <li>Silver Streak Hospital near Signature Global City 93</li>
+                                <li>Medeor Hospital, Manesar near Signature Global City 93</li>
                             </ul>
 
-                            <p class="h4 mt-4">Major School in 6Km Radius</p>
+                            <p class="h4 mt-4">Major School in 6Km Radius of Signature Global City 93</p>
                             <ul>
-                                <li>DPS</li>
-                                <li>RPS International</li>
-                                <li>St. Xavier's</li>
-                                <li>Yaduvanshi School</li>
-                                <li>Matrikiran School</li>
-                                <li>Euro Kids School</li>
-                                <li>Ipsaa Day Care and Pre School</li>
-                                <li>Kidzee School</li>
-                                <li>Shri Chaitanya School</li>
+                                <li>DPS near Signature Global City 93</li>
+                                <li>RPS International near Signature Global City 93</li>
+                                <li>St. Xavier's near Signature Global City 93</li>
+                                <li>Yaduvanshi School near Signature Global City 93</li>
+                                <li>Matrikiran School near Signature Global City 93</li>
+                                <li>Euro Kids School near Signature Global City 93</li>
+                                <li>Ipsaa Day Care and Pre School near Signature Global City 93</li>
+                                <li>Kidzee School near Signature Global City 93</li>
+                                <li>Shri Chaitanya School near Signature Global City 93</li>
                             </ul>
 
-                            <p class="h4 mt-4">Major Universities in 7Km Radius</p>
+                            <p class="h4 mt-4">Major Universities in 7Km Radius of Signature Global City 93</p>
                             <ul>
-                                <li>Gurugram University</li>
-                                <li>SGT University</li>
-                                <li>XLRI School of Management</li>
+                                <li>Gurugram University near Signature Global City 93</li>
+                                <li>SGT University near Signature Global City 93</li>
+                                <li>XLRI School of Management near Signature Global City 93</li>
                             </ul>
 
-                            <p class="h4 mt-4">Retail Hubs and Malls in 7Km Radius</p>
+                            <p class="h4 mt-4">Retail Hubs and Malls in 7Km Radius of Signature Global City 93</p>
                             <ul>
-                                <li>Sapphire 90</li>
-                                <li>Orris Broadway</li>
-                                <li>S S Omnia</li>
-                                <li>Gardencity Arcade</li>
-                                <li>Gardencity Central</li>
-                                <li>Vatika City Centre</li>
-                                <li>Iris Broadway</li>
-                                <li>Sapphire 83</li>
-                                <li>Sapphire 92</li>
-                                <li>Town Square</li>
+                                <li>Sapphire 90 near Signature Global City 93</li>
+                                <li>Orris Broadway near Signature Global City 93</li>
+                                <li>S S Omnia near Signature Global City 93</li>
+                                <li>Gardencity Arcade near Signature Global City 93</li>
+                                <li>Gardencity Central near Signature Global City 93</li>
+                                <li>Vatika City Centre near Signature Global City 93</li>
+                                <li>Iris Broadway near Signature Global City 93</li>
+                                <li>Sapphire 83 near Signature Global City 93</li>
+                                <li>Sapphire 92 near Signature Global City 93</li>
+                                <li>Town Square near Signature Global City 93</li>
                             </ul>
                         </div>
 
@@ -221,38 +251,6 @@
     </div>
 </div>
 
-<style>
-    .custom-btn {
-        display: inline-block;
-        padding: 10px 20px;
-        background: linear-gradient(135deg, #4CAF50, #2E8B57);
-        border-radius: 30px;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        transition: background 0.3s ease;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .custom-btn:hover {
-        background: linear-gradient(135deg, #45a049, #276a47);
-    }
-</style>
-
-<script>
-    function toggleContent() {
-        const content = document.getElementById('moreContent');
-        const button = document.getElementById('toggleBtn');
-        if (content.classList.contains('d-none')) {
-            content.classList.remove('d-none');
-            button.textContent = 'Show Less';
-        } else {
-            content.classList.add('d-none');
-            button.textContent = 'Show More';
-        }
-    }
-</script>
-<!-- Location -->
 
 
 <!-- Designer Section -->
@@ -355,7 +353,7 @@
                 <img src="images/on_going_project/Outdoor-gym.jpg" alt="Image 1" onclick="changeImage('images/on_going_project/Outdoor-gym.jpg')" class="img-thumbnail m-2" style="width: 120px; height: 80px; cursor: pointer;">
                 <img src="images/on_going_project/STREET-VIEW.jpg" alt="Image 2" onclick="changeImage('images/on_going_project/STREET-VIEW.jpg')" class="img-thumbnail m-2" style="width: 120px; height: 80px; cursor: pointer;">
                 <img src="images/on_going_project/Amphi-closeups.jpg" alt="Image 3" onclick="changeImage('images/on_going_project/Amphi-closeups.jpg')" class="img-thumbnail m-2" style="width: 120px; height: 80px; cursor: pointer;">
-                <img src="images/on_going_project/Forest-Spine.jpg" alt="Image 4" onclick="changeImage('images/on_going_project/Forest-Spine.jpg')" class="img-thumbnail m-2" style="width: 120px; height: 80px; cursor: pointer;">
+                <!--<img src="images/on_going_project/Forest-Spine.jpg" alt="Image 4" onclick="changeImage('images/on_going_project/Forest-Spine.jpg')" class="img-thumbnail m-2" style="width: 120px; height: 80px; cursor: pointer;">-->
                 <img src="images/on_going_project/Ariel_Front_Cam.jpg" alt="Image 5" onclick="changeImage('images/on_going_project/Ariel_Front_Cam.jpg')" class="img-thumbnail m-2" style="width: 120px; height: 80px; cursor: pointer;">
             </div>
         </div>
@@ -431,35 +429,78 @@
     </div>
     <body class="bg-light">
 
-<div class="container py-5">
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h1 class="text-success fw-bold mb-3">
+        <a href="images/on_going_project/SG_City_93_Brochure_low.pdf" style="color: inherit; text-decoration: none;" download>
+          Download Signature Global City 93 Brochure PDF
+        </a>
+        – Complete Project Details
+      </h1>
+      <p class="lead mx-auto" style="max-width: 800px;">
+        Looking for the <strong>Signature Global City 93 brochure PDF</strong>? Get instant access to the official brochure with complete details about this premium residential project in Sector 93, Gurgaon. The brochure includes floor plans, payment plans, location map, specifications, amenities, and much more. Whether you're a homebuyer or an investor, this PDF will help you make an informed decision.
+      </p>
+
+      <!-- Download Brochure Button -->
+      <a href="images/on_going_project/SG_City_93_Brochure_low.pdf" class="btn btn-success btn-lg d-inline-flex align-items-center shadow mb-3" download>
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-download me-2" viewBox="0 0 16 16">
+          <path d="M.5 9.9a.5.5 0 0 1 .5.5v3.1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V10.4a.5.5 0 0 1 1 0v3.1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V10.4a.5.5 0 0 1 .5-.5z"/>
+          <path d="M7.646 10.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 9.293V1.5a.5.5 0 0 0-1 0v7.793L5.354 7.146a.5.5 0 1 0-.708.708l3 3z"/>
+        </svg>
+        Download Brochure (PDF)
+      </a>
+
+      <!-- View Brochure Button -->
+      <br>
+      <a href="images/on_going_project/SG_City_93_Brochure_low.pdf" target="_blank" class="btn btn-outline-success btn-lg mt-2">
+        View Brochure – Signature Global City 93 Brochure PDF
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 class="fw-semibold" style="font-family: serif;">Notification Advertisement</h2>
-        <a href="#" class="text-dark text-decoration-none">VIEW LESS <i class="fas fa-chevron-up"></i></a>
+      <h2 class="fw-semibold" style="font-family: serif;">Notification Advertisement</h2>
+      <a href="#" class="text-dark text-decoration-none fw-medium">VIEW LESS <i class="fas fa-chevron-up"></i></a>
     </div>
 
     <hr>
 
     <div class="table-responsive">
-        <table class="table table-bordered">
-            <thead class="bg-dark text-white">
-                <tr>
-                    <th scope="col">TITLE</th>
-                    <th scope="col">DATE</th>
-                    <th scope="col">ENGLISH</th>
-                    <th scope="col">HINDI</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Hari Bhoomi (Hindi) and The Morning Standard (English)</td>
-                    <td>13.04.2023</td>
-                    <td><a href="https://www.signatureglobal.in/pdf/city-93/Public-Notice-Ad4x10cm-(Signature%20Builders%20Private%20Limited)-copy.pdf" class="text-danger"><i class="fas fa-file-pdf fa-lg"></i></a></td>
-                    <td><a href="path/to/hindi.pdf" class="text-danger"></i></a></td>
-                </tr>
-            </tbody>
-        </table>
+      <table class="table table-bordered table-hover">
+        <thead class="bg-dark text-white text-center">
+          <tr>
+            <th scope="col">TITLE</th>
+            <th scope="col">DATE</th>
+            <th scope="col">ENGLISH</th>
+            <th scope="col">HINDI</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-center align-middle">
+            <td>Hari Bhoomi (Hindi) and The Morning Standard (English)</td>
+            <td>13.04.2023</td>
+            <td>
+              <a href="https://www.signatureglobal.in/pdf/city-93/Public-Notice-Ad4x10cm-(Signature%20Builders%20Private%20Limited)-copy.pdf" target="_blank" class="text-danger">
+                <i class="fas fa-file-pdf fa-lg"></i>
+              </a>
+            </td>
+            <td>
+              <a href="path/to/hindi.pdf" target="_blank" class="text-danger">
+                <i class="fas fa-file-pdf fa-lg"></i>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-</div>
+  </div>
+</section>
+
 
 <div style="background-color: #343a40; color: white; padding: 10px;">
     <p>SIGNATURE BUILDERS PRIVATE LIMITED | CIN:. U70101DL2011PTC220275</p>

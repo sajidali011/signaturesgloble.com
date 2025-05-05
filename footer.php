@@ -4,10 +4,9 @@
           <div class="col-lg-4">
             <div class="widget">
               <h3>Contact</h3>
-              <address>Add.Signatures Globals infra Private Limited.
-              office no. 545 5th floor Satya The Hive sec. 102,</address>
+              <address>Add.Signatures Globals office no. Satya The Hive sec. 102</address>
               <ul class="list-unstyled links">
-                <li><a href="tel://11234567890">+919717941119
+                <li><a href="tel://+91 9355713111">+91 9355713111
                 </a></li>
                 <li>
   <a href="mailto:infosignaturesglobals@gmail.com">infosignaturesglobals@gmail.com</a>

@@ -583,11 +583,7 @@
             <div class="vr" style="height: 100%; width: 2px; background-color: black;"></div>
         </div>
 
-        <!-- Company 5 -->
-        <div class="col-md-2 col-sm-6 text-center">
-            <img src="cooperhills.jpg" class="img-fluid mb-2" alt="Coopers Hill Logo">
-            <p class="fw-bold">Landscape Consultant - <br> COOPERHILLS from Singapore</p>
-        </div>
+       
     </div>
 </div>
 <p>&nbsp;</p>

@@ -75,8 +75,7 @@
               <div class="feature-text">
                 <h3 class="heading">Quality properties</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                Explore our extensive portfolio of over 2 million properties, offering prime locations and modern amenities.
                 </p>
               </div>
             </div>
@@ -88,8 +87,7 @@
               <div class="feature-text">
                 <h3 class="heading">Top rated agents</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                Connect with our experienced and highly-rated agents who provide expert guidance and personalized service.
                 </p>
               </div>
             </div>
@@ -101,8 +99,7 @@
               <div class="feature-text">
                 <h3 class="heading">Easy and safe</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                Discover your dream home with our curated selection of properties tailored to match your lifestyle and preferences.
                 </p>
               </div>
             </div>
@@ -127,8 +124,7 @@
               <div class="feature-text">
                 <h3 class="heading">Quality properties</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                Explore our extensive portfolio of over 2 million properties, offering prime locations and modern amenities.
                 </p>
               </div>
             </div>
@@ -140,8 +136,7 @@
               <div class="feature-text">
                 <h3 class="heading">Top rated agents</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                Connect with our experienced and highly-rated agents who provide expert guidance and personalized service.
                 </p>
               </div>
             </div>
@@ -153,8 +148,7 @@
               <div class="feature-text">
                 <h3 class="heading">Easy and safe</h3>
                 <p class="text-black-50">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum iste.
+                Discover your dream home with our curated selection of properties tailored to match your lifestyle and preferences.
                 </p>
               </div>
             </div>
@@ -183,9 +177,8 @@
           >
             <div class="counter-wrap mb-5 mb-lg-0">
               <span class="number"
-                ><span class="countup text-primary">2917</span></span
-              >
-              <span class="caption text-black-50"># of Buy Properties</span>
+                ><span class="countup text-primary">2917</span></span>
+              
             </div>
           </div>
           <div
@@ -195,9 +188,8 @@
           >
             <div class="counter-wrap mb-5 mb-lg-0">
               <span class="number"
-                ><span class="countup text-primary">3918</span></span
-              >
-              <span class="caption text-black-50"># of Sell Properties</span>
+                ><span class="countup text-primary">3918</span></span>
+         
             </div>
           </div>
           <div
@@ -207,9 +199,8 @@
           >
             <div class="counter-wrap mb-5 mb-lg-0">
               <span class="number"
-                ><span class="countup text-primary">38928</span></span
-              >
-              <span class="caption text-black-50"># of All Properties</span>
+                ><span class="countup text-primary">38928</span></span>
+              
             </div>
           </div>
           <div
@@ -219,9 +210,8 @@
           >
             <div class="counter-wrap mb-5 mb-lg-0">
               <span class="number"
-                ><span class="countup text-primary">1291</span></span
-              >
-              <span class="caption text-black-50"># of Agents</span>
+                ><span class="countup text-primary">1291</span></span>
+              
             </div>
           </div>
         </div>
